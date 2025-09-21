@@ -35,6 +35,7 @@ public class Amazon extends HelperClass {
 	public void toUserEnterValidAmazonUrl() {
 		passUrl("https://www.amazon.in/");
 		System.out.println("Appu 1st Update");
+		System.out.println("Appu 2st Update");
 	}
 
 }
