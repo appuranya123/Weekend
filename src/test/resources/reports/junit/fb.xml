@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.971336">
+    <testcase classname="To validate fb Login function" name="To validate login with invalid username and invalid passwor" time="14.812045">
+        <failure message="java.lang.AssertionError: To false&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.stepdef.StepDefinition.toUserEnterInvalidUsernameAndInvalidPassword(StepDefinition.java:35)&#13;&#10;&#9;at ✽.To user enter  invalid username and invalid password(file:src/test/resources/featurefile/fblogin.feature:12)&#13;&#10;"><![CDATA[Given To user launch edge browser...........................................passed
+When To user enter valid url................................................passed
+And To user enter  invalid username and invalid password....................failed
+Then To user click login button.............................................skipped
+
+StackTrace:
+java.lang.AssertionError: To false
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.stepdef.StepDefinition.toUserEnterInvalidUsernameAndInvalidPassword(StepDefinition.java:35)
+	at ✽.To user enter  invalid username and invalid password(file:src/test/resources/featurefile/fblogin.feature:12)
+]]></failure>
+    </testcase>
+    <testcase classname="To validate fb Login function" name="To validate login with valid username and valid passwor" time="9.159291">
+        <system-out><![CDATA[Given To user launch edge browser...........................................passed
+When To user enter valid url................................................passed
+And To user enter  valid username and valid password........................passed
+Then To user click login button.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
