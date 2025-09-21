@@ -34,6 +34,7 @@ public class Amazon extends HelperClass {
 	@When("To user enter valid amazon url")
 	public void toUserEnterValidAmazonUrl() {
 		passUrl("https://www.amazon.in/");
+		System.out.println("Appu 1st Update");
 	}
 
 }
